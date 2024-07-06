@@ -39,31 +39,31 @@ async function weatherCheck(city){
     switch(weather_data.weather[0].main){
 
         case 'Rain':
-            weather_status.src = "images/rainy.gif";
+            weather_status.src = "rainy.gif";
             break;
 
         case 'Clouds':
-            weather_status.src = "images/cloudy.gif";
+            weather_status.src = "cloudy.gif";
             break;
 
         case 'Mist':
-            weather_status.src = "images/mist.gif";
+            weather_status.src = "mist.gif";
             break;
 
         case 'Snow':
-            weather_status.src = "images/snow.gif";
+            weather_status.src = "snow.gif";
             break;
 
         case 'Clear':
-            weather_status.src = "images/clear.gif";
+            weather_status.src = "clear.gif";
             break; 
 
         case 'Smoke':
-            weather_status.src = "images/mist.gif";
+            weather_status.src = "mist.gif";
             break;
 
         case 'Haze':
-            weather_status.src = "images/mist.gif";
+            weather_status.src = "mist.gif";
             break; 
         
         case 'Fog':
